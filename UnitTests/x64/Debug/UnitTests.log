@@ -1,0 +1,10 @@
+﻿D:\INSTALARI\Microsoft Visual Studio\Comunity\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Handout5.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  UnitTests.cpp
+E:\Tema3_ID\UnitTests\UnitTests.cpp(178,1): error C2593: 'operator <<' is ambiguous
+E:\Tema3_ID\Tema3_ID\Source.cpp(151,10): message : could be 'std::ostream &operator <<(std::ostream &,Imprimanta)'
+E:\Tema3_ID\Tema3_ID\Source.cpp(140,18): message : or       'std::ostream &operator <<(std::ostream &,const Imprimanta &)'
+E:\Tema3_ID\UnitTests\UnitTests.cpp(178,1): message : while trying to match the argument list '(std::stringstream, Imprimanta)'
+E:\Tema3_ID\UnitTests\UnitTests.cpp(205,1): error C2593: 'operator <<' is ambiguous
+E:\Tema3_ID\Tema3_ID\Source.cpp(151,10): message : could be 'std::ostream &operator <<(std::ostream &,Imprimanta)'
+E:\Tema3_ID\Tema3_ID\Source.cpp(140,18): message : or       'std::ostream &operator <<(std::ostream &,const Imprimanta &)'
+E:\Tema3_ID\UnitTests\UnitTests.cpp(205,1): message : while trying to match the argument list '(std::ofstream, Imprimanta)'

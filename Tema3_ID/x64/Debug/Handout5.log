@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Facultate\Lector\POO\Teme\Handout5\Handout5\Source.cpp(169,1): error C2628: 'Imprimanta' followed by 'int' is illegal (did you forget a ';'?)
+D:\Facultate\Lector\POO\Teme\Handout5\Handout5\Source.cpp(170,1): error C3874: return type of 'main' should be 'int' instead of 'Imprimanta'
